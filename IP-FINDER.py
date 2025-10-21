@@ -6,4 +6,5 @@ def get_ip_address(url):
         return ip_address
     except socket.error as err:
         return f"Error: {err}"
-print(f"The IP address of {url} is: {get_ip_address(url)}")
+
+print(f"The IP address of {url} is: {get_ip_address(url)}") 
